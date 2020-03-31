@@ -1,0 +1,40 @@
+{
+    "skills_to_abilities": {
+        "acrobatics": "dexterity",
+        "animal handling": "wisdom",
+        "arcana": "intelligence",
+        "athletics": "strength",
+        "deception": "charisma",
+        "history": "intelligence",
+        "insight": "wisdom",
+        "intimidation": "charisma",
+        "investigation": "intelligence",
+        "medicine": "wisdom",
+        "nature": "intelligence",
+        "perception": "wisdom",
+        "performance": "charisma",
+        "persuasion": "charisma",
+        "religeon": "intelligence",
+        "slight of hand": "dexterity",
+        "stealth": "dexterity",
+        "survival": "wisdom"
+    },
+        
+    "class_to_saves": {
+        "artificer": "",
+        "barbarian": "strength, constitution",
+        "bard": "dexterity, charisma",
+        "cleric": "wisdom, charisma",
+        "druid": "intelligence, wisdom",
+        "fighter": "strength, constitution",
+        "monk": "strength, dexterity",
+        "paladin": "wisdom, charisma",
+        "ranger": "strength, dexterity",
+        "rune scribe": "",
+        "rogue": "dexterity, intelligence",
+        "sorcerer": "constitution, charisma",
+        "warlock": "wisdom, charisma",
+        "wizard": "intelligence, wisdom"
+    }
+    
+}

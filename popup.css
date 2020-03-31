@@ -1,0 +1,19 @@
+html {
+    height: 20px;
+    width: 200px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.character-sheet-button {
+    position: relative;
+    text-align: center;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: black;
+    border-bottom-color: black;
+    background-color: grey;
+    color: white;
+}

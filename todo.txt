@@ -1,0 +1,17 @@
+current state: 
+Pulls 'characterviewer' dom element from the page if present.
+
+todo: 
+[ ] - character builder webpage
+    * Can be a project file, already built out the redirect, just need to build the page now
+[ ] - character parser from scraped XML
+    [X] - Scrape XML/JSON
+        [ ] - Make separate scrapes for Features, Spells, and 'Other Resources' boxes
+    [ ] - Parse out important values to save for character
+    [ ] - Standardize the JSON so it can be stored in a 'bookmarks' style
+    [ ] - Make sure to test on a character with multiple weapons
+[ ] - set the extension to indicate in some way when there is a characterviewer dom element available for scraping.
+    * Page action instead of browser action?
+[ ] - build out character library in browser
+[ ] - build out the readme file
+[ ] - Turn the list of ability scores into an iterable obj (ng-repeat)

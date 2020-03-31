@@ -1,0 +1,40 @@
+.ability-score {
+    border-style: solid;
+    height: 90px;
+    width: 90px;
+    border-width: thin;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.ability-score-header,
+.ability-score-modifier,
+.ability-score-value {
+    margin: 0;
+}
+.ability-score-header {
+    height: 10px;
+}
+
+.ability-score-modifier {
+    height: 55px;
+    line-height: 55px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ability-score-value {
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.character-name, .character-name-label {
+    margin: 0;
+}
+
+.character-name-label {
+    margin-bottom: 5px;
+}

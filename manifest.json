@@ -1,0 +1,27 @@
+{
+    "name": "roll20export",
+    "version": "1.0",
+    "description": "Pull info off of a roll 20 character sheet, and save as JSON",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": "test.png",
+      "default_popup": "popup.html"
+    }, 
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": [
+          "content.js"
+        ]
+      }
+    ],
+    "web_accessible_resources": [
+      "character-sheet.html"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    }
+    
+}
